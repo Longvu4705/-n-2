@@ -1,0 +1,39 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+lcd_enable                                                                        0x0008E     10
+lcd_send_nibble                                                                   0x00098     13
+lcd_send_byte                                                                     0x000A5     20
+lcd_cmd                                                                           0x000B9     19
+lcd_data                                                                          0x000CC      6
+lcd_init_custom                                                                   0x000D2     36
+lcd_gotoxy                                                                        0x000F6     16
+lcd_puts_custom                                                                   0x00106     13
+ow_low                                                                            0x00113      3
+ow_release                                                                        0x00116      3
+ow_read_pin                                                                       0x00119      4
+ow_reset                                                                          0x0011D     19
+ow_write_bit                                                                      0x00130     19
+ow_read_bit                                                                       0x00143     14
+ow_write_byte                                                                     0x00151     14
+ow_read_byte                                                                      0x0015F     20
+ds18b20_read_temp_x10                                                             0x00173     66
+lcd_show_temperature                                                              0x001B5     77
+main                                                                              0x00202     42
+put_buff_G100                                                                     0x0022C     56
+_print_G100                                                                       0x00264    316
+sprintf                                                                           0x003A0     54
+strlen                                                                            0x003D6     12
+strlenf                                                                           0x003E2     13
